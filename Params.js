@@ -19,7 +19,7 @@ let canvas_background=[80,80,80];
 let canvas_eff_background=[250,250,250];
 
 //Attivare preload e impostare il numero di cicli del disegno live
-let preloadActive=true; //attivare la barra di preload. il tempo di preload va sempre da 0 a preloadMaxTime
+let preloadActive=false; //attivare la barra di preload. il tempo di preload va sempre da 0 a preloadMaxTime
 let preloadMaxTime=10;
 let time_draw_end=20; //IMPOSTARE I CICLI DI DISEGNO LIVE
 
