@@ -13,7 +13,7 @@ let name_file="File_test";
 //se canvas_dinamico=true viene usata la dimensione effettiva del frame --> windowWidth, windowHeight
 //se canvas non è dinamico viene istanziata la dimenensione del canvas pari a quella dell'immagine. 
 //In questo caso l'eventuale scaling dinamico viene gestito dal CSS (vedere style.css)
-let canvas_dinamico=false;
+let canvas_dinamico=true;
 //colore sfondo di riempimento in caso di canvas dinamico
 let canvas_background=[80,80,80];
 let canvas_eff_background=[250,250,250];
